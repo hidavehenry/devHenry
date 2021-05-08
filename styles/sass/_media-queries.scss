@@ -68,6 +68,16 @@
   }
 
   button {
-    margin: 20px;
+    margin: 10px;
+  }
+
+  form {
+    margin-top: 30px;
+  
+    input, textarea {
+      box-shadow: 10px 10px $red;
+      margin: 7px;
+      width: 80%;
+    }
   }
 }

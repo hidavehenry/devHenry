@@ -611,6 +611,15 @@ footer {
     width: 100%;
   }
   button {
-    margin: 20px;
+    margin: 10px;
+  }
+  form {
+    margin-top: 30px;
+  }
+  form input, form textarea {
+    -webkit-box-shadow: 10px 10px #D57A66;
+            box-shadow: 10px 10px #D57A66;
+    margin: 7px;
+    width: 80%;
   }
 }
