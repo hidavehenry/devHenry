@@ -22,6 +22,10 @@
   visibility: hidden;
 }
 
+.starContainer {
+  visibility: hidden;
+}
+
 .star1 {
   background: white;
   width: 3px;
@@ -138,9 +142,6 @@
     50%  {opacity: 1;}
     100% {opacity: 0;}
 }
-
-
-
 
 .headerName {
   line-height: 10px;

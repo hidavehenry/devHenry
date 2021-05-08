@@ -282,6 +282,10 @@ body.dark-theme .darkSideOfTheMoon {
   visibility: visible;
 }
 
+body.dark-theme .starContainer {
+  visibility: visible;
+}
+
 body.dark-theme h1, body.dark-theme h3 {
   color: #fdfdff;
 }
@@ -399,6 +403,10 @@ span {
 }
 
 .darkSideOfTheMoon {
+  visibility: hidden;
+}
+
+.starContainer {
   visibility: hidden;
 }
 
