@@ -580,6 +580,9 @@ footer {
   h2 {
     font-size: 4vw;
   }
+  h3 {
+    margin-top: 25px;
+  }
   .navLinks li:nth-child(2) {
     padding-left: 2px;
   }
@@ -614,12 +617,10 @@ footer {
     margin: 10px;
   }
   form {
-    margin-top: 30px;
+    margin-top: 35px;
   }
   form input, form textarea {
-    -webkit-box-shadow: 10px 10px #D57A66;
-            box-shadow: 10px 10px #D57A66;
     margin: 7px;
-    width: 80%;
+    width: 75%;
   }
 }

@@ -24,6 +24,10 @@
     font-size: 4vw;
   }
 
+  h3 {
+    margin-top: 25px;
+  }
+
   .navLinks {
   
     li:nth-child(2) {
@@ -72,12 +76,11 @@
   }
 
   form {
-    margin-top: 30px;
+    margin-top: 35px;
   
     input, textarea {
-      box-shadow: 10px 10px $red;
       margin: 7px;
-      width: 80%;
+      width: 75%;
     }
   }
 }
