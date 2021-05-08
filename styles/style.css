@@ -587,7 +587,7 @@ footer {
     padding: 0;
   }
   .cardWrapper {
-    margin: 0;
+    margin: 10px 0;
     padding: 10px;
   }
   .projectText p {
