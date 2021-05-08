@@ -407,13 +407,12 @@ span {
 
 .darkSideOfTheMoon {
   position: absolute;
-  left: 70%;
+  left: 65%;
   top: 3%;
   width: 140px;
   height: 140px;
   border-radius: 100%;
   background: #fcfaf0;
-  margin: 80px;
   visibility: hidden;
 }
 
@@ -595,6 +594,7 @@ span {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-top: 150px;
+  z-index: 99999;
 }
 
 .navLinks li:nth-child(2) {
@@ -781,6 +781,12 @@ footer {
   }
   h1 {
     line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .navLinks {
+    padding-top: 300px;
   }
 }
 

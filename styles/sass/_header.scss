@@ -23,13 +23,12 @@
 
 .darkSideOfTheMoon {
   position: absolute;
-  left: 70%;
+  left: 65%;
   top: 3%;
   width: 140px;
   height: 140px;
   border-radius: 100%;
   background: rgb(252, 250, 240);
-  margin: 80px;
   visibility: hidden;
 }
 
@@ -171,6 +170,7 @@
   flex-direction: row;
   justify-content: space-around;
   padding-top: 150px;
+  z-index : 99999;
 
   li:nth-child(2) {
     padding-left: 40px;
