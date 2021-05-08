@@ -27,6 +27,25 @@ body.dark-theme {
 background: $black;
 color: $white;
 
+  .hereComesTheSun {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: rgb(255, 225, 91);
+    margin: 0px;
+    visibility: hidden;
+  }
+
+  .darkSideOfTheMoon {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  background: rgb(252, 250, 240);
+  margin: 50px;
+  animation: pulse 1s infinite;
+  visibility: visible;
+}
+
   h1, h3 {
     color: $white;
   }
