@@ -268,11 +268,6 @@ body.dark-theme {
 }
 
 body.dark-theme .hereComesTheSun {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  background: #ffe15b;
-  margin: 0px;
   visibility: hidden;
 }
 
@@ -281,7 +276,7 @@ body.dark-theme .darkSideOfTheMoon {
   height: 140px;
   border-radius: 100%;
   background: #fcfaf0;
-  margin: 50px;
+  margin-left: 10vw;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
   visibility: visible;
@@ -389,30 +384,21 @@ span {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hereComesTheSun {
-  position: absolute;
-  left: 18%;
-  top: 8%;
   width: 140px;
   height: 140px;
   border-radius: 50%;
   background: #ffe15b;
-  margin: 0px;
+  margin-left: 20vw;
   visibility: visible;
 }
 
 .darkSideOfTheMoon {
-  position: absolute;
-  left: 65%;
-  top: 3%;
-  width: 140px;
-  height: 140px;
-  border-radius: 100%;
-  background: #fcfaf0;
   visibility: hidden;
 }
 
@@ -593,7 +579,6 @@ span {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-top: 150px;
   z-index: 99999;
 }
 
@@ -784,9 +769,9 @@ footer {
   }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 880px) {
   .navLinks {
-    padding-top: 300px;
+    padding-top: 70px;
   }
 }
 
@@ -804,8 +789,11 @@ footer {
   h3 {
     margin-top: 25px;
   }
+  .navLinks {
+    padding-top: 120px;
+  }
   .navLinks li:nth-child(2) {
-    padding-left: 2px;
+    padding-left: 15px;
   }
   .skillIcons {
     padding: 0;

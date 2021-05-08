@@ -28,11 +28,6 @@ background: $black;
 color: $white;
 
   .hereComesTheSun {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    background: rgb(255, 225, 91);
-    margin: 0px;
     visibility: hidden;
   }
 
@@ -41,7 +36,7 @@ color: $white;
   height: 140px;
   border-radius: 100%;
   background: rgb(252, 250, 240);
-  margin: 50px;
+  margin-left: 10vw;
   animation: pulse 1s infinite;
   visibility: visible;
 }

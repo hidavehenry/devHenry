@@ -9,10 +9,10 @@
   }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 880px) {
 
   .navLinks {
-    padding-top: 300px;
+    padding-top: 70px;
   }
 }
 
@@ -36,9 +36,11 @@
   }
 
   .navLinks {
+
+    padding-top: 120px;
   
     li:nth-child(2) {
-      padding-left: 2px;
+      padding-left: 15px;
     }
   }
 

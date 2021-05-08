@@ -6,29 +6,19 @@
 .headerAnimation {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .hereComesTheSun {
-  position: absolute;
-  left: 18%;
-  top: 8%;
   width: 140px;
   height: 140px;
   border-radius: 50%;
   background: rgb(255, 225, 91);
-  margin: 0px;
+  margin-left: 20vw;
   visibility: visible;
 }
 
 .darkSideOfTheMoon {
-  position: absolute;
-  left: 65%;
-  top: 3%;
-  width: 140px;
-  height: 140px;
-  border-radius: 100%;
-  background: rgb(252, 250, 240);
   visibility: hidden;
 }
 
@@ -169,7 +159,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-top: 150px;
   z-index : 99999;
 
   li:nth-child(2) {
