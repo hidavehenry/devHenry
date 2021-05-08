@@ -592,6 +592,9 @@ footer {
   .skillIcons li {
     padding: 10px;
   }
+  .aboutContainer {
+    padding-top: 10px;
+  }
   .aboutText {
     padding: 0;
   }
@@ -600,7 +603,7 @@ footer {
     padding: 10px;
   }
   .projectsContainer {
-    margin-top: 20px;
+    padding-top: 20px;
   }
   .projectText p {
     padding: 0 10px;
