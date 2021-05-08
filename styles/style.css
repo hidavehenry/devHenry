@@ -560,6 +560,12 @@ footer {
   padding: 20px;
 }
 
+@media screen and (max-width: 980px) {
+  .wrapper {
+    margin: 15px;
+  }
+}
+
 @media screen and (max-width: 680px) {
   body {
     margin: 20px 10px;
