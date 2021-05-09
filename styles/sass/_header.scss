@@ -36,7 +36,7 @@
   left: 10%;
   border-radius: 100%;
   opacity: 0.5;
-  animation: glowing-stars 2s infinite alternate linear 250ms;
+  animation: glowing-stars 2s infinite alternate linear 850ms;
 }
 .star2 {
   background: white;
@@ -47,7 +47,7 @@
   left: 90%;
   border-radius: 100%;
   opacity: 0.5;
-  animation: glowing-stars 2s infinite alternate linear 750ms;
+  animation: glowing-stars 2s infinite alternate linear;
 }
 .star3 {
   background: white;
@@ -91,7 +91,7 @@
   left: 28%;
   border-radius: 100%;
   opacity: 0.5;
-  animation: glowing-stars 5s infinite alternate linear 500ms;
+  animation: glowing-stars 5s infinite alternate linear 700ms;
 }
 .star7 {
   background: white;
@@ -102,7 +102,7 @@
   left: 38%;
   border-radius: 100%;
   opacity: 0.5;
-  animation: glowing-stars 1s infinite alternate linear 660ms;
+  animation: glowing-stars 1s infinite alternate linear;
 }
 .star8 {
   background: white;
@@ -113,7 +113,7 @@
   left: 48%;
   border-radius: 100%;
   opacity: 0.5;
-  animation-name: glowing-stars 2s infinite alternate linear;
+  animation-name: glowing-stars 2s infinite alternate linear 750ms;
 }
 .star9 {
   background: white;
@@ -124,7 +124,7 @@
   left: 21%;
   border-radius: 100%;
   opacity: 0.5;
-  animation-name: glowing-stars 2s infinite alternate linear;
+  animation-name: glowing-stars 2s infinite alternate linear 960ms;
 }
 .star10 {
   background: white;
