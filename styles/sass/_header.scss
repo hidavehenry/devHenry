@@ -10,12 +10,13 @@
 }
 
 .hereComesTheSun {
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
-  background: rgb(255, 225, 91);
+  background: rgb(255, 243, 132);
   margin-left: 20vw;
   visibility: visible;
+  box-shadow: 0 0 70px 8px #f7f3c1;
 }
 
 .darkSideOfTheMoon {
@@ -90,7 +91,7 @@
   left: 28%;
   border-radius: 100%;
   opacity: 0.5;
-  animation: glowing-stars 2s infinite alternate linear 500ms;
+  animation: glowing-stars 5s infinite alternate linear 500ms;
 }
 .star7 {
   background: white;
@@ -101,7 +102,7 @@
   left: 38%;
   border-radius: 100%;
   opacity: 0.5;
-  animation: glowing-stars 2s infinite alternate linear 660ms;
+  animation: glowing-stars 1s infinite alternate linear 660ms;
 }
 .star8 {
   background: white;
@@ -136,12 +137,92 @@
   opacity: 0.5;
   animation-name: glowing-stars 2s infinite alternate linear;
 }
+.star11 {
+  background: white;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  top: 50%;
+  left: 71%;
+  border-radius: 100%;
+  opacity: 0.5;
+  animation-name: glowing-stars 2s infinite alternate linear 950ms;
+}
+.star12 {
+  background: white;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  top: 59%;
+  left: 28%;
+  border-radius: 100%;
+  opacity: 0.5;
+  animation-name: glowing-stars 2s infinite alternate linear 750ms;
+}
+.star13 {
+  background: white;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 61%;
+  border-radius: 100%;
+  opacity: 0.5;
+  animation-name: glowing-stars 4s infinite alternate linear 900ms;
+}
+.star14 {
+  background: white;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  top: 11%;
+  left: 23%;
+  border-radius: 100%;
+  opacity: 0.5;
+  animation-name: glowing-stars 2s infinite alternate linear 950ms;
+}
+.star15 {
+  background: white;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  top: 29%;
+  left: 29%;
+  border-radius: 100%;
+  opacity: 0.5;
+  animation-name: glowing-stars 2s infinite alternate linear 750ms;
+}
+.star16 {
+  background: white;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  top: 59%;
+  left: 91%;
+  border-radius: 100%;
+  opacity: 0.5;
+  animation-name: glowing-stars 1s infinite alternate linear 660ms;
+}
+.star17 {
+  background: white;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  top: 23%;
+  left: 63%;
+  border-radius: 100%;
+  opacity: 0.5;
+  animation-name: glowing-stars 2s infinite alternate linear 660ms;
+}
 
 @keyframes glowing-stars {
     0%   {opacity: 0;}
     50%  {opacity: 1;}
     100% {opacity: 0;}
 }
+
+
+
 
 .headerName {
   line-height: 10px;

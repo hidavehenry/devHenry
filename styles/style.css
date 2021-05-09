@@ -279,6 +279,8 @@ body.dark-theme .darkSideOfTheMoon {
   margin-left: 10vw;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
+  -webkit-box-shadow: 0 0 20px 1px #ffc7c7;
+          box-shadow: 0 0 20px 1px #ffc7c7;
   visibility: visible;
 }
 
@@ -394,12 +396,14 @@ span {
 }
 
 .hereComesTheSun {
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
-  background: #ffe15b;
+  background: #fff384;
   margin-left: 20vw;
   visibility: visible;
+  -webkit-box-shadow: 0 0 70px 8px #f7f3c1;
+          box-shadow: 0 0 70px 8px #f7f3c1;
 }
 
 .darkSideOfTheMoon {
@@ -484,8 +488,8 @@ span {
   left: 28%;
   border-radius: 100%;
   opacity: 0.5;
-  -webkit-animation: glowing-stars 2s infinite alternate linear 500ms;
-          animation: glowing-stars 2s infinite alternate linear 500ms;
+  -webkit-animation: glowing-stars 5s infinite alternate linear 500ms;
+          animation: glowing-stars 5s infinite alternate linear 500ms;
 }
 
 .star7 {
@@ -497,8 +501,8 @@ span {
   left: 38%;
   border-radius: 100%;
   opacity: 0.5;
-  -webkit-animation: glowing-stars 2s infinite alternate linear 660ms;
-          animation: glowing-stars 2s infinite alternate linear 660ms;
+  -webkit-animation: glowing-stars 1s infinite alternate linear 660ms;
+          animation: glowing-stars 1s infinite alternate linear 660ms;
 }
 
 .star8 {
@@ -538,6 +542,97 @@ span {
   opacity: 0.5;
   -webkit-animation-name: glowing-stars 2s infinite alternate linear;
           animation-name: glowing-stars 2s infinite alternate linear;
+}
+
+.star11 {
+  background: white;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  top: 50%;
+  left: 71%;
+  border-radius: 100%;
+  opacity: 0.5;
+  -webkit-animation-name: glowing-stars 2s infinite alternate linear 950ms;
+          animation-name: glowing-stars 2s infinite alternate linear 950ms;
+}
+
+.star12 {
+  background: white;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  top: 59%;
+  left: 28%;
+  border-radius: 100%;
+  opacity: 0.5;
+  -webkit-animation-name: glowing-stars 2s infinite alternate linear 750ms;
+          animation-name: glowing-stars 2s infinite alternate linear 750ms;
+}
+
+.star13 {
+  background: white;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 61%;
+  border-radius: 100%;
+  opacity: 0.5;
+  -webkit-animation-name: glowing-stars 4s infinite alternate linear 900ms;
+          animation-name: glowing-stars 4s infinite alternate linear 900ms;
+}
+
+.star14 {
+  background: white;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  top: 11%;
+  left: 23%;
+  border-radius: 100%;
+  opacity: 0.5;
+  -webkit-animation-name: glowing-stars 2s infinite alternate linear 950ms;
+          animation-name: glowing-stars 2s infinite alternate linear 950ms;
+}
+
+.star15 {
+  background: white;
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  top: 29%;
+  left: 29%;
+  border-radius: 100%;
+  opacity: 0.5;
+  -webkit-animation-name: glowing-stars 2s infinite alternate linear 750ms;
+          animation-name: glowing-stars 2s infinite alternate linear 750ms;
+}
+
+.star16 {
+  background: white;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  top: 59%;
+  left: 91%;
+  border-radius: 100%;
+  opacity: 0.5;
+  -webkit-animation-name: glowing-stars 1s infinite alternate linear 660ms;
+          animation-name: glowing-stars 1s infinite alternate linear 660ms;
+}
+
+.star17 {
+  background: white;
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  top: 23%;
+  left: 63%;
+  border-radius: 100%;
+  opacity: 0.5;
+  -webkit-animation-name: glowing-stars 2s infinite alternate linear 660ms;
+          animation-name: glowing-stars 2s infinite alternate linear 660ms;
 }
 
 @-webkit-keyframes glowing-stars {
