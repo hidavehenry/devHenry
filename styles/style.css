@@ -239,6 +239,10 @@ html {
   overflow: hidden;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   background: #fdfdff;
   color: #2D2A32;
@@ -372,16 +376,12 @@ span {
   font-weight: bold;
 }
 
-header {
-  overflow-x: hidden;
-}
-
 .cloud {
   --cloud-colour: rgb(231, 221, 221) ;
   --cloud-factor: 1rem;
   --cloud-opacity: 0.4;
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: calc(-20 * var(--cloud-factor));
   right: auto;
   background-color: var(--cloud-colour);
@@ -389,8 +389,8 @@ header {
   width: calc(20 * var(--cloud-factor));
   height: calc(6 * var(--cloud-factor));
   border-radius: calc(3 * var(--cloud-factor));
-  -webkit-animation: cloudFloat 35s linear infinite;
-          animation: cloudFloat 35s linear infinite;
+  -webkit-animation: cloudFloat 44s linear infinite;
+          animation: cloudFloat 44s linear infinite;
 }
 
 .cloud:before {
@@ -418,21 +418,21 @@ header {
 .cloud:nth-child(2) {
   --cloud-factor: 0.75rem;
   --cloud-opacity: 0.5;
-  top: 9%;
+  top: 13%;
   left: -50%;
   right: auto;
-  -webkit-animation: cloudFloat 44s linear infinite;
-          animation: cloudFloat 44s linear infinite;
+  -webkit-animation: cloudFloat 54s linear infinite;
+          animation: cloudFloat 54s linear infinite;
 }
 
 .cloud:nth-child(3) {
   --cloud-factor: 0.6rem;
   --cloud-opacity: 0.4;
-  top: 18%;
+  top: 24%;
   left: -50%;
   right: auto;
-  -webkit-animation: cloudFloat 22s linear infinite;
-          animation: cloudFloat 22s linear infinite;
+  -webkit-animation: cloudFloat 32s linear infinite;
+          animation: cloudFloat 32s linear infinite;
 }
 
 @-webkit-keyframes cloudFloat {
@@ -487,8 +487,8 @@ header {
   background: #fff384;
   margin-left: 20vw;
   visibility: visible;
-  -webkit-box-shadow: 0 0 70px 8px #f7f3c1;
-          box-shadow: 0 0 70px 8px #f7f3c1;
+  -webkit-box-shadow: 0 0 15px 8px #f7f3c1;
+          box-shadow: 0 0 15px 8px #f7f3c1;
 }
 
 .darkSideOfTheMoon {

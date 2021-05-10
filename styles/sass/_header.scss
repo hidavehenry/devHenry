@@ -1,14 +1,11 @@
 
-header {
-  overflow-x: hidden;
-}
 
 .cloud {
   --cloud-colour: rgb(231, 221, 221) ;
   --cloud-factor: 1rem;
   --cloud-opacity: 0.4;
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: calc(-20 * var(--cloud-factor));
   right: auto;
   background-color: var(--cloud-colour);
@@ -16,7 +13,7 @@ header {
   width: calc(20 * var(--cloud-factor));
   height: calc(6 * var(--cloud-factor));
   border-radius: calc(3 * var(--cloud-factor));
-  animation: cloudFloat 35s linear infinite;
+  animation: cloudFloat 44s linear infinite;
 }
 .cloud:before {
   content: "";
@@ -41,18 +38,18 @@ header {
 .cloud:nth-child(2) {
   --cloud-factor: 0.75rem;
   --cloud-opacity: 0.5;
-  top: 9%;
+  top: 13%;
   left: -50%;
   right: auto;
-  animation: cloudFloat 44s linear infinite;
+  animation: cloudFloat 54s linear infinite;
 }
 .cloud:nth-child(3) {
   --cloud-factor: 0.6rem;
   --cloud-opacity: 0.4;
-  top: 18%;
+  top: 24%;
   left: -50%;
   right: auto;
-  animation: cloudFloat 22s linear infinite;
+  animation: cloudFloat 32s linear infinite;
 }
 
 @keyframes cloudFloat {
@@ -63,7 +60,6 @@ header {
         transform: translate3d(150vmax, 0, 0);
     }
 }
-
 
 .headerContainer {
   display: flex;
@@ -83,7 +79,7 @@ header {
   background: rgb(255, 243, 132);
   margin-left: 20vw;
   visibility: visible;
-  box-shadow: 0 0 70px 8px #f7f3c1;
+  box-shadow: 0 0 15px 8px #f7f3c1;
 }
 
 .darkSideOfTheMoon {
