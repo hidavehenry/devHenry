@@ -1047,8 +1047,8 @@ footer {
               transform: translate(0px);
     }
     100% {
-      -webkit-transform: translate(450px);
-              transform: translate(450px);
+      -webkit-transform: translate(420px);
+              transform: translate(420px);
       opacity: 0%;
     }
   }
@@ -1058,8 +1058,8 @@ footer {
               transform: translate(0px);
     }
     100% {
-      -webkit-transform: translate(450px);
-              transform: translate(450px);
+      -webkit-transform: translate(420px);
+              transform: translate(420px);
       opacity: 0%;
     }
   }
