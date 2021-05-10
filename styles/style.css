@@ -378,7 +378,7 @@ span {
 
 .cloudContainer {
   overflow-x: hidden;
-  width: 100%;
+  max-width: 100%;
 }
 
 .cloud {
@@ -1003,6 +1003,10 @@ footer {
   }
   .aboutContainer {
     padding-top: 10px;
+  }
+  .aboutImg img {
+    border-radius: 50%;
+    width: 50vw;
   }
   .aboutText {
     padding: 0;
