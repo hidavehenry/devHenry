@@ -376,6 +376,11 @@ span {
   font-weight: bold;
 }
 
+.cloudContainer {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 .cloud {
   --cloud-colour: rgb(231, 221, 221) ;
   --cloud-factor: 1rem;
@@ -971,6 +976,10 @@ footer {
   .wrapper {
     margin: 0 20px;
   }
+  .cloudContainer {
+    overflow-x: hidden;
+    width: 50%;
+  }
   .hereComesTheSun {
     margin-left: 10vw;
   }
@@ -1028,18 +1037,5 @@ footer {
   form input, form textarea {
     margin: 7px;
     width: 75%;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  body {
-    overflow: hidden;
-  }
-}
-
-/* ----------- iPad mini ----------- */
-@media screen and (max-width: 768px) {
-  body {
-    overflow: hidden;
   }
 }
