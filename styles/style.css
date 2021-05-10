@@ -1039,3 +1039,28 @@ footer {
     width: 75%;
   }
 }
+
+@media screen and (max-width: 450px) {
+  @-webkit-keyframes cloudFloat {
+    0% {
+      -webkit-transform: translate(0px);
+              transform: translate(0px);
+    }
+    100% {
+      -webkit-transform: translate(450px);
+              transform: translate(450px);
+      opacity: 0%;
+    }
+  }
+  @keyframes cloudFloat {
+    0% {
+      -webkit-transform: translate(0px);
+              transform: translate(0px);
+    }
+    100% {
+      -webkit-transform: translate(450px);
+              transform: translate(450px);
+      opacity: 0%;
+    }
+  }
+}
