@@ -105,3 +105,20 @@
     }
   }
 }
+
+
+
+
+@media screen and (max-width: 375px) {
+  body {
+      overflow: hidden;
+  }
+}
+
+/* ----------- iPad mini ----------- */
+
+@media screen and (max-width: 768px) {
+  body {
+      overflow: hidden;
+  }
+}
