@@ -248,16 +248,16 @@ body {
   color: #2D2A32;
   font-family: "Montserrat", sans-serif;
   height: auto;
-  -webkit-transition: .6s;
-  transition: .6s;
   max-width: 1800px;
   margin: 20px 40px;
+  -webkit-transition: .6s;
+  transition: .6s;
 }
 
 .darkmode-toggle {
+  cursor: pointer;
   font-size: 30px;
   opacity: 30%;
-  cursor: pointer;
 }
 
 .darkmode-toggle:hover {
@@ -272,20 +272,24 @@ body.dark-theme {
 }
 
 body.dark-theme .hereComesTheSun {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
   visibility: hidden;
 }
 
 body.dark-theme .darkSideOfTheMoon {
-  width: 110px;
-  height: 110px;
-  border-radius: 100%;
-  background: #fcfaf0;
-  margin-left: 10vw;
   -webkit-animation: pulse 1s infinite;
           animation: pulse 1s infinite;
+  background: #fcfaf0;
+  border-radius: 100%;
   -webkit-box-shadow: 0 0 20px 1px #ffc7c7;
           box-shadow: 0 0 20px 1px #ffc7c7;
+  height: 110px;
+  margin-left: 10vw;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
   visibility: visible;
+  width: 110px;
 }
 
 body.dark-theme .starContainer {
@@ -491,17 +495,21 @@ span {
 }
 
 .hereComesTheSun {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
   background: #fff384;
-  margin-left: 20vw;
-  visibility: visible;
+  border-radius: 50%;
   -webkit-box-shadow: 0 0 15px 8px #f7f3c1;
           box-shadow: 0 0 15px 8px #f7f3c1;
+  height: 130px;
+  margin-left: 20vw;
+  -webkit-transition: .5s;
+  transition: .5s;
+  visibility: visible;
+  width: 130px;
 }
 
 .darkSideOfTheMoon {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
   visibility: hidden;
 }
 
