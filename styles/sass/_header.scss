@@ -115,7 +115,7 @@
 .star:nth-child(3) {
   top: 30%;
   left: 90%;
-  animation: glowing-stars 2s infinite alternate linear;
+  animation: glowing-stars 2s infinite alternate linear 1100ms;
 }
 .star:nth-child(4) {
   top: 10%;
@@ -125,12 +125,12 @@
 .star:nth-child(5) {
   top: 7%;
   left: 50%;
-  animation: glowing-stars 2s infinite alternate linear 1s;
+  animation: glowing-stars 2s infinite alternate linear 1300ms;
 }
 .star:nth-child(6) {
   top: 40%;
   left: 8%;
-  animation: glowing-stars 2s infinite alternate linear 2s;
+  animation: glowing-stars 2s infinite alternate linear 600ms;
 }
 .star:nth-child(7) {
   top: 4%;
@@ -140,7 +140,7 @@
 .star:nth-child(8) {
   top: 35%;
   left: 38%;
-  animation: glowing-stars 1s infinite alternate linear;
+  animation: glowing-stars 1s infinite alternate linear 700ms;
 }
 .star:nth-child(9) {
   width: 4px;
@@ -163,7 +163,7 @@
   height: 4px;
   top: 7%;
   left: 93%;
-  animation-name: glowing-stars 2s infinite alternate linear;
+  animation-name: glowing-stars 2s infinite alternate linear 600ms;
 }
 .star:nth-child(12) {
   width: 4px;
@@ -205,7 +205,7 @@
   height: 1px;
   top: 59%;
   left: 91%;
-  animation-name: glowing-stars 1s infinite alternate linear 660ms;
+  animation-name: glowing-stars 2s infinite alternate linear 600ms;
 }
 .star:nth-child(18) {
   width: 1px;
@@ -215,11 +215,9 @@
   animation-name: glowing-stars 2s infinite alternate linear 660ms;
 }
 .star:nth-child(19) {
-  width: 3px;
-  height: 3px;
-  top: 33%;
-  left: 73%;
-  animation-name: glowing-stars 1s infinite alternate linear 260ms;
+  top: 40%;
+  left: 83%;
+  animation: glowing-stars 2s infinite alternate linear 600ms;
 }
 
 @keyframes glowing-stars {
@@ -227,9 +225,6 @@
     50%  {opacity: 1;}
     100% {opacity: 0;}
 }
-
-
-
 
 .headerName {
   line-height: 10px;

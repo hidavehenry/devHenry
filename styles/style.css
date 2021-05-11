@@ -246,7 +246,7 @@ html, body {
 body {
   background: #fdfdff;
   color: #2D2A32;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif, Arial, Helvetica, sans-serif;
   height: auto;
   max-width: 1800px;
   margin: 20px 40px;
@@ -538,8 +538,8 @@ span {
 .star:nth-child(3) {
   top: 30%;
   left: 90%;
-  -webkit-animation: glowing-stars 2s infinite alternate linear;
-          animation: glowing-stars 2s infinite alternate linear;
+  -webkit-animation: glowing-stars 2s infinite alternate linear 1100ms;
+          animation: glowing-stars 2s infinite alternate linear 1100ms;
 }
 
 .star:nth-child(4) {
@@ -552,15 +552,15 @@ span {
 .star:nth-child(5) {
   top: 7%;
   left: 50%;
-  -webkit-animation: glowing-stars 2s infinite alternate linear 1s;
-          animation: glowing-stars 2s infinite alternate linear 1s;
+  -webkit-animation: glowing-stars 2s infinite alternate linear 1300ms;
+          animation: glowing-stars 2s infinite alternate linear 1300ms;
 }
 
 .star:nth-child(6) {
   top: 40%;
   left: 8%;
-  -webkit-animation: glowing-stars 2s infinite alternate linear 2s;
-          animation: glowing-stars 2s infinite alternate linear 2s;
+  -webkit-animation: glowing-stars 2s infinite alternate linear 600ms;
+          animation: glowing-stars 2s infinite alternate linear 600ms;
 }
 
 .star:nth-child(7) {
@@ -573,8 +573,8 @@ span {
 .star:nth-child(8) {
   top: 35%;
   left: 38%;
-  -webkit-animation: glowing-stars 1s infinite alternate linear;
-          animation: glowing-stars 1s infinite alternate linear;
+  -webkit-animation: glowing-stars 1s infinite alternate linear 700ms;
+          animation: glowing-stars 1s infinite alternate linear 700ms;
 }
 
 .star:nth-child(9) {
@@ -602,8 +602,8 @@ span {
   height: 4px;
   top: 7%;
   left: 93%;
-  -webkit-animation-name: glowing-stars 2s infinite alternate linear;
-          animation-name: glowing-stars 2s infinite alternate linear;
+  -webkit-animation-name: glowing-stars 2s infinite alternate linear 600ms;
+          animation-name: glowing-stars 2s infinite alternate linear 600ms;
 }
 
 .star:nth-child(12) {
@@ -656,8 +656,8 @@ span {
   height: 1px;
   top: 59%;
   left: 91%;
-  -webkit-animation-name: glowing-stars 1s infinite alternate linear 660ms;
-          animation-name: glowing-stars 1s infinite alternate linear 660ms;
+  -webkit-animation-name: glowing-stars 2s infinite alternate linear 600ms;
+          animation-name: glowing-stars 2s infinite alternate linear 600ms;
 }
 
 .star:nth-child(18) {
@@ -670,12 +670,10 @@ span {
 }
 
 .star:nth-child(19) {
-  width: 3px;
-  height: 3px;
-  top: 33%;
-  left: 73%;
-  -webkit-animation-name: glowing-stars 1s infinite alternate linear 260ms;
-          animation-name: glowing-stars 1s infinite alternate linear 260ms;
+  top: 40%;
+  left: 83%;
+  -webkit-animation: glowing-stars 2s infinite alternate linear 600ms;
+          animation: glowing-stars 2s infinite alternate linear 600ms;
 }
 
 @-webkit-keyframes glowing-stars {
