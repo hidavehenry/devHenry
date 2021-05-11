@@ -1030,6 +1030,9 @@ footer {
 }
 
 @media screen and (max-width: 450px) {
+  .navLinks {
+    padding-left: 15px;
+  }
   @-webkit-keyframes cloudFloat {
     0% {
       -webkit-transform: translate(0px);

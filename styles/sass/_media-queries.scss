@@ -45,7 +45,6 @@
   }
 
   .navLinks {
-
     padding-top: 120px;
   
     li:nth-child(2) {
@@ -127,6 +126,11 @@
 }
 
 @media screen and (max-width: 450px) {
+
+  .navLinks {
+    padding-left: 15px;
+
+  }
 
   @keyframes cloudFloat {
     0% {
