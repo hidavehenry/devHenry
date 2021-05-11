@@ -67,6 +67,16 @@ color: $white;
     color: $black;
   }
 
+  .skillSection {
+
+    li {
+      p {
+        background: $black;
+        border: 2px solid $white;
+      }
+    }
+  }
+
   .cardWrapper {
     border: 2px solid $white;
   }

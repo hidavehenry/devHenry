@@ -18,7 +18,26 @@
   padding: 0 80px;
 
   li {
-    padding: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+
+  li:hover {
+    p {
+      visibility: visible;
+    }
+  }
+
+  p {
+    background: $white;
+    border: 2px solid $black;
+    box-shadow: 4px 4px $red;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 0 9px;
+    position: absolute;
+    text-transform: uppercase;
+    visibility: hidden;
   }
 }
 

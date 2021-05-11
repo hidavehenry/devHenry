@@ -8,7 +8,7 @@
   --cloud-factor: 1rem;
   --cloud-opacity: 0.4;
   position: absolute;
-  top: 30%;
+  top: 17%;
   left: calc(-20 * var(--cloud-factor));
   right: auto;
   background-color: var(--cloud-colour);
@@ -16,7 +16,7 @@
   width: calc(20 * var(--cloud-factor));
   height: calc(6 * var(--cloud-factor));
   border-radius: calc(3 * var(--cloud-factor));
-  animation: cloudFloat 44s linear infinite;
+  animation: cloudFloat 94s linear infinite;
 }
 .cloud:before {
   content: "";
@@ -39,9 +39,9 @@
   border-radius: 50%;
 }
 .cloud:nth-child(2) {
-  --cloud-factor: 0.75rem;
+  --cloud-factor: 0.5rem;
   --cloud-opacity: 0.5;
-  top: 13%;
+  top: 28%;
   left: -50%;
   right: auto;
   animation: cloudFloat 54s linear infinite;
@@ -49,10 +49,10 @@
 .cloud:nth-child(3) {
   --cloud-factor: 0.6rem;
   --cloud-opacity: 0.4;
-  top: 24%;
+  top: 39%;
   left: -50%;
   right: auto;
-  animation: cloudFloat 32s linear infinite;
+  animation: cloudFloat 47s linear infinite;
 }
 
 @keyframes cloudFloat {
@@ -93,7 +93,8 @@
   visibility: hidden;
 }
 
-.star1 {
+
+.star {
   background: white;
   width: 3px;
   height: 3px;
@@ -102,183 +103,121 @@
   left: 10%;
   border-radius: 100%;
   opacity: 0.5;
+}
+
+.star:nth-child(2) {
+  top: 20%;
+  left: 10%;
   animation: glowing-stars 2s infinite alternate linear 850ms;
 }
-.star2 {
-  background: white;
-  width: 3px;
-  height: 3px;
-  position: absolute;
+.star:nth-child(3) {
   top: 30%;
   left: 90%;
-  border-radius: 100%;
-  opacity: 0.5;
   animation: glowing-stars 2s infinite alternate linear;
 }
-.star3 {
-  background: white;
-  width: 3px;
-  height: 3px;
-  position: absolute;
+.star:nth-child(4) {
   top: 10%;
   left: 80%;
-  border-radius: 100%;
-  opacity: 0.5;
   animation: glowing-stars 2s infinite alternate linear 900ms;
 }
-.star4 {
-  background: white;
-  width: 3px;
-  height: 3px;
-  position: absolute;
+.star:nth-child(5) {
   top: 7%;
   left: 50%;
-  border-radius: 100%;
-  opacity: 0.5;
   animation: glowing-stars 2s infinite alternate linear 1s;
 }
-.star5 {
-  background: white;
-  width: 3px;
-  height: 3px;
-  position: absolute;
+.star:nth-child(6) {
   top: 40%;
   left: 8%;
-  border-radius: 100%;
-  opacity: 0.5;
   animation: glowing-stars 2s infinite alternate linear 2s;
 }
-.star6 {
-  background: white;
-  width: 4px;
-  height: 4px;
-  position: absolute;
+.star:nth-child(7) {
   top: 4%;
   left: 28%;
-  border-radius: 100%;
-  opacity: 0.5;
   animation: glowing-stars 5s infinite alternate linear 700ms;
 }
-.star7 {
-  background: white;
-  width: 3px;
-  height: 3px;
-  position: absolute;
+.star:nth-child(8) {
   top: 35%;
   left: 38%;
-  border-radius: 100%;
-  opacity: 0.5;
   animation: glowing-stars 1s infinite alternate linear;
 }
-.star8 {
-  background: white;
+.star:nth-child(9) {
   width: 4px;
   height: 4px;
-  position: absolute;
   top: 30%;
   left: 48%;
   border-radius: 100%;
   opacity: 0.5;
   animation-name: glowing-stars 2s infinite alternate linear 750ms;
 }
-.star9 {
-  background: white;
+.star:nth-child(10) {
   width: 4px;
   height: 4px;
-  position: absolute;
   top: 30%;
   left: 21%;
-  border-radius: 100%;
-  opacity: 0.5;
   animation-name: glowing-stars 2s infinite alternate linear 960ms;
 }
-.star10 {
-  background: white;
+.star:nth-child(11) {
   width: 4px;
   height: 4px;
-  position: absolute;
   top: 7%;
   left: 93%;
-  border-radius: 100%;
-  opacity: 0.5;
   animation-name: glowing-stars 2s infinite alternate linear;
 }
-.star11 {
-  background: white;
+.star:nth-child(12) {
   width: 4px;
   height: 4px;
-  position: absolute;
   top: 50%;
   left: 71%;
-  border-radius: 100%;
-  opacity: 0.5;
   animation-name: glowing-stars 2s infinite alternate linear 950ms;
 }
-.star12 {
-  background: white;
+.star:nth-child(13) {
   width: 4px;
   height: 4px;
-  position: absolute;
   top: 59%;
   left: 28%;
-  border-radius: 100%;
-  opacity: 0.5;
   animation-name: glowing-stars 2s infinite alternate linear 750ms;
 }
-.star13 {
-  background: white;
+.star:nth-child(14) {
   width: 2px;
   height: 2px;
-  position: absolute;
   top: 50%;
   left: 61%;
-  border-radius: 100%;
-  opacity: 0.5;
   animation-name: glowing-stars 4s infinite alternate linear 900ms;
 }
-.star14 {
-  background: white;
+.star:nth-child(15) {
   width: 2px;
   height: 2px;
-  position: absolute;
   top: 11%;
   left: 23%;
-  border-radius: 100%;
-  opacity: 0.5;
   animation-name: glowing-stars 2s infinite alternate linear 950ms;
 }
-.star15 {
-  background: white;
+.star:nth-child(16) {
   width: 2px;
   height: 2px;
-  position: absolute;
   top: 29%;
   left: 29%;
-  border-radius: 100%;
-  opacity: 0.5;
   animation-name: glowing-stars 2s infinite alternate linear 750ms;
 }
-.star16 {
-  background: white;
+.star:nth-child(17) {
   width: 1px;
   height: 1px;
-  position: absolute;
   top: 59%;
   left: 91%;
-  border-radius: 100%;
-  opacity: 0.5;
   animation-name: glowing-stars 1s infinite alternate linear 660ms;
 }
-.star17 {
-  background: white;
+.star:nth-child(18) {
   width: 1px;
   height: 1px;
-  position: absolute;
   top: 23%;
   left: 63%;
-  border-radius: 100%;
-  opacity: 0.5;
   animation-name: glowing-stars 2s infinite alternate linear 660ms;
+}
+.star:nth-child(19) {
+  width: 3px;
+  height: 3px;
+  top: 33%;
+  left: 73%;
+  animation-name: glowing-stars 1s infinite alternate linear 260ms;
 }
 
 @keyframes glowing-stars {
