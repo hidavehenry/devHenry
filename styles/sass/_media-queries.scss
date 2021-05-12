@@ -130,6 +130,9 @@
   .navLinks {
     padding-left: 15px;
 
+    li:nth-child(2) {
+      padding-left: 10px;
+    }
   }
 
   @keyframes cloudFloat {
