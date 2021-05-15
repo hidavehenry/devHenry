@@ -892,20 +892,6 @@ form button {
   padding: 15px;
 }
 
-.glide__arrows {
-  text-align: center;
-}
-
-.carousel {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
 .cardWrapper {
   border: 2px solid #2D2A32;
   border-radius: 5px;
@@ -953,6 +939,7 @@ form button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-top: 10px;
 }
 
 .portfolioIcons li {
