@@ -41,6 +41,38 @@
   }
 }
 
+i.tooltip {
+  padding: 0px 5px;
+  position: relative;
+  background: #FFBB99;
+  cursor: pointer;
+}
+
+i.tooltip-info {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+i.tooltip::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 1.5em;
+  font-size: 0.9em;
+  padding: 1px 5px;
+  display: none;
+  color: white;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  transition: opacity 0.1s ease-out;
+  z-index: 99;
+  text-align: left;
+}
+
+li:hover::before {
+  display: inline-block;
+}
+
 .aboutText {
   padding: 30px 0;
 }
