@@ -257,7 +257,15 @@ body {
 .darkmode-toggle {
   cursor: pointer;
   font-size: 30px;
-  opacity: 30%;
+  opacity: 70%;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.darkmode-toggle p {
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0;
 }
 
 .darkmode-toggle:hover {
@@ -334,7 +342,7 @@ body.dark-theme .projectImg img {
 
 h1, h3 {
   color: #2D2A32;
-  font-family: "Righteous", cursive;
+  font-family: "Righteous";
   font-size: 60px;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -362,6 +370,8 @@ button {
   padding: 10px 20px;
   text-transform: uppercase;
   width: 150px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 button:hover {
@@ -748,8 +758,9 @@ h2:hover {
 }
 
 .aboutImg img {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  width: 30vw;
 }
 
 .skillIcons {
