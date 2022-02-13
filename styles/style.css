@@ -280,22 +280,20 @@ body.dark-theme {
 }
 
 body.dark-theme .hereComesTheSun {
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
+  -webkit-transition: 0.12s;
+  transition: 0.12s;
   visibility: hidden;
 }
 
 body.dark-theme .darkSideOfTheMoon {
-  -webkit-animation: pulse 1s infinite;
-          animation: pulse 1s infinite;
   background: #fcfaf0;
   border-radius: 100%;
   -webkit-box-shadow: 0 0 20px 1px #ffc7c7;
           box-shadow: 0 0 20px 1px #ffc7c7;
   height: 110px;
   margin-left: 10vw;
-  -webkit-transition: 0.9s;
-  transition: 0.9s;
+  -webkit-transition: .3s;
+  transition: .3s;
   visibility: visible;
   width: 110px;
 }
@@ -314,6 +312,10 @@ body.dark-theme a {
 
 body.dark-theme a:hover {
   color: #D57A66;
+}
+
+body.dark-theme a:focus {
+  border: 2px solid #D57A66;
 }
 
 body.dark-theme button {
@@ -361,6 +363,10 @@ a:hover {
   color: #D57A66;
 }
 
+a:focus {
+  border: 2px solid #2D2A32;
+}
+
 button {
   background: #2D2A32;
   border: 2px solid #2D2A32;
@@ -380,6 +386,10 @@ button:hover {
   color: #D57A66;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+}
+
+button:focus {
+  border: 2px solid #2D2A32;
 }
 
 ul {
@@ -511,15 +521,11 @@ span {
           box-shadow: 0 0 15px 8px #f7f3c1;
   height: 130px;
   margin-left: 20vw;
-  -webkit-transition: .5s;
-  transition: .5s;
   visibility: visible;
   width: 130px;
 }
 
 .darkSideOfTheMoon {
-  -webkit-transition: 0.9s;
-  transition: 0.9s;
   visibility: hidden;
 }
 
@@ -799,6 +805,11 @@ h2:hover {
   position: absolute;
   text-transform: uppercase;
   visibility: hidden;
+}
+
+i:focus {
+  outline: 2px solid black;
+  padding: 2px;
 }
 
 i.tooltip {

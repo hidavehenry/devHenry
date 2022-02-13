@@ -39,18 +39,17 @@ background: $black;
 color: $white;
 
   .hereComesTheSun {
-  transition: 0.1s;
+  transition: 0.12s;
   visibility: hidden;
   }
 
   .darkSideOfTheMoon {
-  animation: pulse 1s infinite;
   background: rgb(252, 250, 240);
   border-radius: 100%;
   box-shadow: 0 0 20px 1px #ffc7c7;
   height: 110px;
   margin-left: 10vw;
-  transition: 0.9s;
+  transition: .3s;
   visibility: visible;
   width: 110px;
   }
@@ -69,6 +68,10 @@ color: $white;
 
   a:hover {
     color: $red;
+  }
+
+  a:focus {
+    border: 2px solid $red;
   }
 
   button {
@@ -121,6 +124,10 @@ a:hover {
   color: $red;
 }
 
+a:focus {
+  border: 2px solid $black;
+}
+
 button {
   background: $black;
   border: 2px solid $black;
@@ -137,6 +144,10 @@ button:hover {
   box-shadow: 5px 5px $red;
   color: $red;
   transition: 0.2s;
+}
+
+button:focus {
+  border: 2px solid $black;
 }
 
 ul {
