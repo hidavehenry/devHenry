@@ -10,6 +10,10 @@
     }
 }
 
+.skillSection {
+  padding: 10px 0px;
+}
+
 .skillIcons {
   display: flex;
   flex-direction: row;
@@ -20,7 +24,6 @@
 
   li {
     padding: 0 10px;
-    cursor: pointer;
   }
 
   li:hover {
@@ -40,11 +43,6 @@
     text-transform: uppercase;
     visibility: hidden;
   }
-}
-
-i:focus {
-  outline: 2px solid black;
-  padding: 2px;
 }
 
 i.tooltip {
@@ -80,9 +78,9 @@ li:hover::before {
 }
 
 .aboutText {
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .tldr {
-  padding-top: 30px;
+  padding-top: 20px;
 }

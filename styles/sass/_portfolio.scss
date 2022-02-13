@@ -1,13 +1,11 @@
 
 
-.cardWrapper {
-  border: 2px solid $black;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  margin: 30px;
-  padding: 30px;
-}
+// .cardWrapper {
+//   display: flex;
+//   flex-direction: column;
+//   margin: 30px;
+//   padding: 30px;
+// }
 
 .projectText {
   h3 {
@@ -46,4 +44,28 @@
 
 .projectBtn {
   text-align: center;
+}
+
+.portfoliocontrols {
+padding-top: 20px;
+display: flex;
+justify-content: space-between;
+
+  i {
+    color: $black;
+    font-size: 2em;
+  }
+
+  button {
+    background: $white;
+    border: none;
+    color: $black;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  button:hover {
+  box-shadow: none;
+  transition: 0.2s;
+}
 }

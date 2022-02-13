@@ -70,10 +70,6 @@ color: $white;
     color: $red;
   }
 
-  a:focus {
-    border: 2px solid $red;
-  }
-
   button {
     background: $white;
     color: $black;
@@ -89,12 +85,19 @@ color: $white;
     }
   }
 
-  .cardWrapper {
-    border: 2px solid $white;
+  .portfoliocontrols {
+
+    button {
+      color: $white;
+      background: $black;
+    }
+
+    i {
+      color: $white;
+    }
   }
 
   .projectImg img {
-    border: 2px solid $black;
     box-shadow: 10px 10px $white;
   }
 }
@@ -122,10 +125,7 @@ a {
 
 a:hover {
   color: $red;
-}
-
-a:focus {
-  border: 2px solid $black;
+  text-decoration: none;
 }
 
 button {
@@ -146,13 +146,10 @@ button:hover {
   transition: 0.2s;
 }
 
-button:focus {
-  border: 2px solid $black;
-}
-
 ul {
   padding: 0;
   list-style: none;
+  text-decoration: none;
 }
 
 p {

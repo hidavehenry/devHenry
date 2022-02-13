@@ -314,10 +314,6 @@ body.dark-theme a:hover {
   color: #D57A66;
 }
 
-body.dark-theme a:focus {
-  border: 2px solid #D57A66;
-}
-
 body.dark-theme button {
   background: #fdfdff;
   color: #2D2A32;
@@ -328,12 +324,16 @@ body.dark-theme .skillSection li p {
   border: 2px solid #fdfdff;
 }
 
-body.dark-theme .cardWrapper {
-  border: 2px solid #fdfdff;
+body.dark-theme .portfoliocontrols button {
+  color: #fdfdff;
+  background: #2D2A32;
+}
+
+body.dark-theme .portfoliocontrols i {
+  color: #fdfdff;
 }
 
 body.dark-theme .projectImg img {
-  border: 2px solid #2D2A32;
   -webkit-box-shadow: 10px 10px #fdfdff;
           box-shadow: 10px 10px #fdfdff;
 }
@@ -361,10 +361,7 @@ a {
 
 a:hover {
   color: #D57A66;
-}
-
-a:focus {
-  border: 2px solid #2D2A32;
+  text-decoration: none;
 }
 
 button {
@@ -388,13 +385,10 @@ button:hover {
   transition: 0.2s;
 }
 
-button:focus {
-  border: 2px solid #2D2A32;
-}
-
 ul {
   padding: 0;
   list-style: none;
+  text-decoration: none;
 }
 
 p {
@@ -769,6 +763,10 @@ h2:hover {
   border-radius: 50%;
 }
 
+.skillSection {
+  padding: 10px 0px;
+}
+
 .skillIcons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -787,7 +785,6 @@ h2:hover {
 
 .skillIcons li {
   padding: 0 10px;
-  cursor: pointer;
 }
 
 .skillIcons li:hover p {
@@ -805,11 +802,6 @@ h2:hover {
   position: absolute;
   text-transform: uppercase;
   visibility: hidden;
-}
-
-i:focus {
-  outline: 2px solid black;
-  padding: 2px;
 }
 
 i.tooltip {
@@ -846,11 +838,11 @@ li:hover::before {
 }
 
 .aboutText {
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .tldr {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .contactContainer {
@@ -914,20 +906,6 @@ form button {
   padding: 15px;
 }
 
-.cardWrapper {
-  border: 2px solid #2D2A32;
-  border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: 30px;
-  padding: 30px;
-}
-
 .projectText h3 {
   text-align: center;
   padding-bottom: 10px;
@@ -971,6 +949,36 @@ form button {
 
 .projectBtn {
   text-align: center;
+}
+
+.portfoliocontrols {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.portfoliocontrols i {
+  color: #2D2A32;
+  font-size: 2em;
+}
+
+.portfoliocontrols button {
+  background: #fdfdff;
+  border: none;
+  color: #2D2A32;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.portfoliocontrols button:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 footer {

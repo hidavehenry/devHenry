@@ -7,6 +7,8 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌮</text></svg>">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+
   <title>Dave Henry - Front End Developer</title>
 </head>
 <body>
@@ -60,10 +62,20 @@
   </header>
   <main class="wrapper">
 
-    <!-- About Section Starts -->
+    <!-- About and Skills Section Starts -->
     <div class="aboutContainer">
       <div class="aboutImg">
         <img src="./assets/profile2022.png" alt="headshot of Dave Henry with a forest background."/>
+      </div>
+
+      <div class="aboutText" id="about">
+        <h3>About</h3>
+        
+        <p>Driven by a love of creative solutions and an unbounded curiosity with 7+ years of project and event management experience. Passionate about working with others to accomplish goals and build products that will have a meaningful impact. Focused on growing from the event industry into tech, bringing my strengths with me while continuing to learn and build skills through embracing new challenges.</p>
+
+        <p>When I'm not in front of a screen I can be found on the hunt for tacos, flipping through bins at local record stores, or exploring the city's hidden nooks by bike.</p>
+      
+        <p class="tldr"><span class="bold">TL;DR</span>  I like to write code, solve problems, eat tacos and I'm available for work, so <span><a href="#contact">let's chat!</a></span></p>
       </div>
       <div class="skillSection">
         <h3>Skills</h3>
@@ -81,28 +93,16 @@
           <li><i class="fas fa-cogs" sr-only="Rest APIs" tabindex="0"></i><p class="icon10">rest apis</p></li>
         </ul>
       </div>
-
-      <div class="aboutText" id="about">
-        <div class="aboutHeader">
-          <h3>About</h3>
-        </div>
-
-        <p>Driven by a love of creative solutions and an unbounded curiosity with 7+ years of project and event management experience. Passionate about working with others to accomplish goals and build products that will have a meaningful impact. Focused on growing from the event industry into tech, bringing my strengths with me while continuing to learn and build skills through embracing new challenges.</p>
-
-        <p>When I'm not in front of a screen I can be found on the hunt for tacos, flipping through bins at local record stores, or exploring the city's hidden nooks by bike.</p>
-
-        <p class="tldr"><span class="bold">TL;DR</span>  I like to write code, solve problems, eat tacos and I'm available for work, so <span><a href="#contact">let's chat!</a></span></p>
-      </div>
     </div>
     <!-- About Section Ends -->
 
     <!-- Project Section Starts -->
     <div class="projectsContainer glide" id="projects">
       <h3>Projects</h3>
-      <p>I've had the chance to work both solo and with some wonderful teams of various sizes on a bunch of challenging yet rewarding projects that we're really proud of. Take a look through some of my favourites, or find more at my <a href="https://github.com/hidavehenry" title="Github" target="_blank">Github</a>!</p>
-      <div class="carouselWrapper">
-        <div class="carousel glide__slides" id="anywhereButHere">
-          <div class="cardWrapper first glide__slide">
+      <!-- <p>I've had the chance to work both solo and with some wonderful teams of various sizes on a bunch of challenging yet rewarding projects that we're really proud of. Take a look through some of my favourites, or find more at my <a href="https://github.com/hidavehenry" title="Github" target="_blank">Github</a>!</p> -->
+      <div class="carouselWrapper glide__track" data-glide-el="track">
+        <ul class="carousel glide__slides" id="anywhereButHere">
+          <li class="cardWrapper glide__slide">
             <div class="projectText">
               <h3>Anywhere But Here</h3>
               <p>As a team of four, we utilized multiple MapQuest APIs and the Leaflet library to create a passive aggressive search app that returns a map and directions to points of interest within a certain radius and category as requested by the user, using a starting address that can be manually entered or populated with users current location.</p>
@@ -120,31 +120,31 @@
                 <a href="https://github.com/MappleInc/anywhereButHere" target="_blank"><button>See Code</button></a>
               </div>
             </div>
-          </div>
+          </li>
 
 
-          <div class="cardWrapper second glide__slide" id="humblePonderings">
+          <li class="cardWrapper glide__slide" id="humblePonderings">
             <div class="projectText">
-                <h3>Humble Ponderings</h3>
-                <p>In a team of two we built a react based app that utilizes firebase so that users are able to create responses to randomly generated prompts, add a mood emoji, then save them to a list that populates below with the option to edit, delete, and bookmark.</p>
-                <div class="projectImg">
-                  <img src="./assets/HP.gif"/ alt="a gif showing the features of the Humble Ponderings website.">
-                  <ul class="portfolioIcons">
-                    <li><i class="devicon-html5-plain" title="html5"></i></li>
-                    <li><i class="devicon-css3-plain" title="css3"></i></li>
-                    <li><i class="devicon-react-original" title="react"></i></li>
-                    <li><i class="devicon-firebase-plain" title="firebase"></i></li>
-                  </ul>
-                </div>
-                <div class="projectBtn">
-                  <a href="https://trusting-torvalds-be28b8.netlify.app/" target="_blank"><button>Live Link</button></a>
-                  <a href="https://github.com/Gwynnifer-co/Project-3" target="_blank"><button>See Code</button></a>
-                </div>
+              <h3>Humble Ponderings</h3>
+              <p>In a team of two we built a react based app that utilizes firebase so that users are able to create responses to randomly generated prompts, add a mood emoji, then save them to a list that populates below with the option to edit, delete, and bookmark.</p>
+              <div class="projectImg">
+                <img src="./assets/HP.gif"/ alt="a gif showing the features of the Humble Ponderings website.">
+                <ul class="portfolioIcons">
+                  <li><i class="devicon-html5-plain" title="html5"></i></li>
+                  <li><i class="devicon-css3-plain" title="css3"></i></li>
+                  <li><i class="devicon-react-original" title="react"></i></li>
+                  <li><i class="devicon-firebase-plain" title="firebase"></i></li>
+                </ul>
+              </div>
+              <div class="projectBtn">
+                <a href="https://trusting-torvalds-be28b8.netlify.app/" target="_blank"><button>Live Link</button></a>
+                <a href="https://github.com/Gwynnifer-co/Project-3" target="_blank"><button>See Code</button></a>
+              </div>
             </div>
-          </div>
+          </li>
 
 
-          <div class="cardWrapper third glide__slide" id="weatherWherever">
+          <li class="cardWrapper glide__slide" id="weatherWherever">
             <div class="projectText">
               <h3>Weather, Wherever</h3>
               <p>A simple yet effective solo project that utilizes the Open Weather Map API and jQuery to return results showing the weather in a city as entered by the user.</p>
@@ -162,9 +162,14 @@
                 <a href="https://github.com/hidavehenry/weatherWherever" target="_blank"><button>See Code</button></a>
               </div>
             </div>
-          </div>
-        </div>
+          </li>
+
+        </ul>
       </div>  
+      <div class="glide__arrows portfoliocontrols" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<"> <i class="fas fa-arrow-left"></i> prev </button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-arrow-right"></i> next </button>
+      </div>
     </div>
     <!-- Project Section Ends -->  
 
@@ -224,9 +229,10 @@
     <p>Developed by Dave Henry 2021</p>
   </footer>
   <script src="app.js"></script> 
-  <!-- <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+  <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
   <script>
     new Glide('.glide').mount()
-  </script> -->
+  </script>
+  
 </body>
 </html>
