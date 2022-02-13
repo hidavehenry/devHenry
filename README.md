@@ -1,2 +1,3 @@
 # Portfolio - devhenry.com
-Portfolio website: www.devhenry.com
+
+My portfolio highlighting some skills and projects. Built with HTML, CSS/Sass, and Javascript.
