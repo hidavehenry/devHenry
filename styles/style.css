@@ -912,7 +912,7 @@ form button {
 }
 
 .projectText p {
-  padding: 0 70px;
+  padding: 20px 70px;
 }
 
 .projectImg {
@@ -1036,10 +1036,6 @@ footer {
   }
   .aboutContainer {
     padding-top: 10px;
-  }
-  .aboutImg img {
-    border-radius: 50%;
-    width: 50vw;
   }
   .aboutText {
     padding: 0;
