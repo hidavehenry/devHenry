@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,800&display=swap');
 
 html, body { 
@@ -20,7 +19,7 @@ body {
   cursor: pointer;
   font-size: 30px;
   opacity: 70%;
-  transition: .8s;
+  transition: .7s;
 
   p {
     font-size: 10px;
@@ -31,7 +30,7 @@ body {
 
 .darkmode-toggle:hover {
   opacity: 100%;
-  transition: .8s;
+  transition: .7s;
 }
 
 body.dark-theme {
@@ -85,16 +84,9 @@ color: $white;
     }
   }
 
-  .portfoliocontrols {
-
-    button {
-      color: $white;
-      background: $black;
-    }
-
-    i {
-      color: $white;
-    }
+  .cardWrapper {
+    border: 1.5px solid $white;
+    border-radius: 2px;
   }
 
   .projectImg img {
