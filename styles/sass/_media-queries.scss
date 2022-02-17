@@ -6,14 +6,19 @@
 
   h1 {
     line-height: 60px;
+    transition: .5s
   }
-}
-
-@media screen and (max-width: 880px) {
 
   .navLinks {
-    padding-top: 70px;
+    padding-top: 60px;
+    transition: .5s
   }
+
+  .profile {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
 }
 
 @media screen and (max-width: 680px) {
@@ -63,12 +68,6 @@
   .aboutContainer {
     padding-top: 10px;
   }
-
-  // .aboutImg img {
-  //   border-radius: 50%;
-  //   width: 50px;
-  //   height: 50px;
-  // }
 
   .aboutText {
     padding: 0;
