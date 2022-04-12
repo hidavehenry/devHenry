@@ -244,7 +244,9 @@ html, body {
 }
 
 body {
-  background: #fdfdff;
+  background: #c3cce2;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #c3cce2), color-stop(41%, #efcdd3), to(#ffffce));
+  background: linear-gradient(180deg, #c3cce2 1%, #efcdd3 41%, #ffffce 100%);
   color: #2D2A32;
   font-family: "Montserrat", sans-serif, Arial, Helvetica, sans-serif;
   height: auto;
@@ -275,8 +277,12 @@ body {
 }
 
 body.dark-theme {
-  background: #2D2A32;
+  background: #020e17;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(22%, rgba(2, 14, 23, 0.921875)), color-stop(52%, #293255), color-stop(94%, #524063));
+  background: linear-gradient(180deg, rgba(2, 14, 23, 0.921875) 22%, #293255 52%, #524063 94%);
   color: #fdfdff;
+  -webkit-transition: .7s;
+  transition: .7s;
 }
 
 body.dark-theme .hereComesTheSun {
@@ -505,7 +511,7 @@ span {
 }
 
 .hereComesTheSun {
-  background: #fff384;
+  background: #fdf9d1;
   border-radius: 50%;
   -webkit-box-shadow: 0 0 15px 8px #f7f3c1;
           box-shadow: 0 0 15px 8px #f7f3c1;

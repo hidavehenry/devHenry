@@ -6,7 +6,9 @@ html, body {
 }
 
 body {
-  background: $white;
+  // background: $white;
+  background: rgb(195,204,226);
+  background: linear-gradient(180deg, rgba(195,204,226,1) 1%, rgba(239,205,211,1) 41%, rgba(255,255,206,1) 100%);
   color: $black;
   font-family: $body, Arial, Helvetica, sans-serif;
   height: auto;
@@ -34,8 +36,11 @@ body {
 }
 
 body.dark-theme {
-background: $black;
+// background: $black;
+background: rgb(2,14,23);
+background: linear-gradient(180deg, rgba(2,14,23,0.921875) 22%, rgba(41,50,85,1) 52%, rgba(82,64,99,1) 94%);
 color: $white;
+transition: .7s;
 
   .hereComesTheSun {
   transition: 0.12s;
