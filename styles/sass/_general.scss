@@ -6,9 +6,8 @@ html, body {
 }
 
 body {
-  // background: $white;
-  background: rgb(195,204,226);
-  background: linear-gradient(180deg, rgba(195,204,226,1) 1%, rgba(239,205,211,1) 41%, rgba(255,255,206,1) 100%);
+  background: rgb(185,218,251);
+  background: linear-gradient(180deg, rgba(185,218,251,1) 13%, rgba(239,205,211,0.9275910193178833) 68%, rgba(255,255,206,0.8939775739397321) 100%);
   color: $black;
   font-family: $body, Arial, Helvetica, sans-serif;
   height: auto;
@@ -64,14 +63,17 @@ transition: .7s;
 
   h1, h3 {
     color: $white;
+    transition: 0.3s;
   }
 
   a {
     color: $white;
+    transition: 0.3s;
   }
 
   a:hover {
     color: $red;
+    transition: 0.3s;
   }
 
   button {
@@ -109,6 +111,7 @@ h1, h3 {
   font-size: 60px;
   letter-spacing: 5px;
   text-transform: uppercase;
+  transition: 0.3s;
 }
 
 h3 {
@@ -118,11 +121,13 @@ h3 {
 a {
   color: $black;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 a:hover {
   color: $red;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 button {

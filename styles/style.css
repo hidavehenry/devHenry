@@ -244,9 +244,9 @@ html, body {
 }
 
 body {
-  background: #c3cce2;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #c3cce2), color-stop(41%, #efcdd3), to(#ffffce));
-  background: linear-gradient(180deg, #c3cce2 1%, #efcdd3 41%, #ffffce 100%);
+  background: #b9dafb;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(13%, #b9dafb), color-stop(68%, rgba(239, 205, 211, 0.927591)), to(rgba(255, 255, 206, 0.893978)));
+  background: linear-gradient(180deg, #b9dafb 13%, rgba(239, 205, 211, 0.927591) 68%, rgba(255, 255, 206, 0.893978) 100%);
   color: #2D2A32;
   font-family: "Montserrat", sans-serif, Arial, Helvetica, sans-serif;
   height: auto;
@@ -310,14 +310,20 @@ body.dark-theme .starContainer {
 
 body.dark-theme h1, body.dark-theme h3 {
   color: #fdfdff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 body.dark-theme a {
   color: #fdfdff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 body.dark-theme a:hover {
-  color: #D57A66;
+  color: #f0ac7b;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 body.dark-theme button {
@@ -350,6 +356,8 @@ h1, h3 {
   font-size: 60px;
   letter-spacing: 5px;
   text-transform: uppercase;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 h3 {
@@ -359,11 +367,15 @@ h3 {
 a {
   color: #2D2A32;
   text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 a:hover {
-  color: #D57A66;
+  color: #f0ac7b;
   text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 button {
@@ -380,9 +392,9 @@ button {
 }
 
 button:hover {
-  -webkit-box-shadow: 5px 5px #D57A66;
-          box-shadow: 5px 5px #D57A66;
-  color: #D57A66;
+  -webkit-box-shadow: 5px 5px #f0ac7b;
+          box-shadow: 5px 5px #f0ac7b;
+  color: #f0ac7b;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -722,7 +734,7 @@ span {
 }
 
 .headerName h1 {
-  text-shadow: 2px 2px #D57A66;
+  text-shadow: 2px 2px #f0ac7b;
 }
 
 .navLinks {
@@ -806,8 +818,8 @@ h2:hover {
 .skillIcons p {
   background: #fdfdff;
   border: 2px solid #2D2A32;
-  -webkit-box-shadow: 4px 4px #D57A66;
-          box-shadow: 4px 4px #D57A66;
+  -webkit-box-shadow: 4px 4px #f0ac7b;
+          box-shadow: 4px 4px #f0ac7b;
   font-weight: bold;
   font-size: 12px;
   padding: 0 9px;
@@ -882,8 +894,8 @@ form {
 
 form input, form textarea {
   border: 2px solid #2D2A32;
-  -webkit-box-shadow: 5px 5px #D57A66;
-          box-shadow: 5px 5px #D57A66;
+  -webkit-box-shadow: 5px 5px #f0ac7b;
+          box-shadow: 5px 5px #f0ac7b;
   font-family: "Montserrat", sans-serif;
   margin: 10px;
   padding: 10px;
